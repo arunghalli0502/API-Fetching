@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    background-color: lightgray;
+}
+
+.section
+{
+    width: 100%;  
+}
+
+table{
+    
+    border-width: 4px;
+    background-color:blue;
+    color:greenyellow;
+    
+}
+ table thead{
+    width: 4px;
+    border-color: aqua;
+ }
+img{
+    height: 70px;
+    width: 120px;
+}

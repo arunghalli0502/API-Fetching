@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News API</title>
+    <link rel="stylesheet" href="./NewsAPI.css">
+</head>
+<body>
+    
+
+    <section class="section">
+        <div class="searchartical">
+            <input type="search"  id="search" onchange="removenews()" onkeyup="removenews()" > <!--  -->
+            <button  onclick="newsapi()">Search</button>
+        </div>
+
+
+
+        <div class="news">
+            <table  border="2px soild red">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Poster</th>
+                        <th>Article</th>
+                        <th>Publish date</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                   
+
+                </tbody>
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <script src="./NewsAPI.js"></script>
+</body>
+</html>
